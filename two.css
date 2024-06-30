@@ -1,0 +1,370 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: black ;
+}
+ .animation-box {
+  height: 30rem;
+  background-color: rgb(0, 0, 0);
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+ 
+.first-text{
+  font-size: 1.5rem;
+  position: absolute;
+  left:8rem;
+  top: 2rem;
+  opacity: 0;
+  animation-name: topFadeOut;
+  animation-duration: 9s;
+  color: white;
+
+}
+ .second-text {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 1rem;
+  top: 7rem;
+  opacity: 0;
+  animation-name: rightFadeInOut;
+  animation-delay: 9s;
+  animation-duration: 7s;
+  color: #ccc;
+}
+.third-text {
+  transform: rotate(-45deg);
+  font-size: 1.4rem;
+  position: absolute;
+  
+  top: 50%;
+  opacity:0 ;
+  animation-name: topFadeOutVertical;
+  animation-delay: 18s;
+  animation-duration: 9s;
+  color: #a3ddf0;
+  white-space: nowrap;
+}
+
+.fourth-text {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 13rem;
+  left: 1rem;
+  opacity:0;
+  color: #f0a3be;
+  animation-name: fadeInOut;
+  animation-delay: 27s;
+  animation-duration: 9s;
+}
+
+.fifth-text {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 1rem;
+  bottom: 5rem;
+  opacity:0;
+  color: #f0eba3;
+  animation-name: bottomFadeOut;
+  animation-delay: 36s;
+  animation-duration: 9s;
+}
+
+
+.sixth-text{
+  font-size: 1.5rem;
+  position: absolute;
+  left: 10rem;
+  top: 50% ;
+  opacity:0;
+  color: red;
+  animation-name: queen;
+  animation-delay: 45s;
+  animation-duration: 9s;
+}
+
+.seventh-text {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 13rem;
+  left: 1rem;
+  opacity:0;
+  color: whitesmoke;
+  animation-name: naveen;
+  animation-delay: 54s;
+  animation-duration: 9s;
+}
+
+
+ .eighth-text{
+  font-size: 1.5rem;
+  position: absolute;
+  left: 10rem;
+  top: 50% ;
+  opacity:0;
+  animation-name: one;
+  animation-delay: 63s;
+  animation-duration: 9s;
+  color: red;
+}
+.nineth{
+  
+  font-size: 1.3rem;
+  position: absolute;
+  left: 8%;
+  top: 50%;
+  opacity:0;
+  animation-name: two;
+  animation-delay: 72s;
+  animation-duration: 9s;
+  color: #a3ddf0;
+  white-space: nowrap;
+}
+
+
+.tenth{
+  font-size: 1.2rem;
+  position: absolute;
+  left:2rem;
+  top: 8rem;
+  opacity:0;
+  animation-name: three;
+  animation-delay: 81s;
+  animation-duration: 9s;
+  color: white;
+
+}
+ .eleven{
+  font-size: 1.4rem;
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  opacity:0 ;
+  animation-name: four;
+  animation-delay: 90s;
+  animation-duration: 100s;
+  color: #a3ddf0;
+}
+.twoll{
+  
+  font-size: 1.5rem;
+  position: absolute;
+  left: 68%;
+  top: 60%;
+  opacity: 0;
+  animation-name: five;
+  animation-delay: 90s;
+  animation-duration: 100s;
+  color: white ;
+  white-space: nowrap;
+}
+
+@keyframes topFadeOut {
+
+   0%{ position:absolute ;
+       top: -3rem;  
+       opacity: 0;
+   }
+   75%{position: absolute;
+   top: 30%;
+    opacity:1 ;
+   }
+    
+   100%{
+       opacity: 0;
+   }
+}
+@keyframes bottomFadeOut {
+  0% {
+    position: absolute;
+    bottom: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    bottom: 45%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes topFadeOutVertical {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 45%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes rightFadeInOut {
+  0% {
+    position: absolute;
+    right: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    right: 10rem;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    right: 10rem;
+  }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+@keyframes queen {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+
+@keyframes naveen {
+  0% {
+    position: absolute;
+    right: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    right: 10rem;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    right: 10rem;
+  }
+}
+
+@keyframes one {
+
+    0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+@keyframes two {
+  0% {
+    position: absolute;
+    bottom: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    bottom: 45%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes three {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
+
+  75% {
+    position: absolute;
+    top: 45%;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes four {
+  0% {
+    position: absolute;
+    right: -3rem;
+    opacity: 0;
+  }
+
+  45% {
+    position: absolute;
+    right: 10rem;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    right: 10rem;
+  }
+}
+
+@keyframes five {
+  0% {
+    position: absolute;
+    right: -3rem;
+    opacity: 0;
+    
+  }
+
+  45% {
+    position: absolute;
+    right: 10rem;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+    right: 10rem;
+  }
+}
